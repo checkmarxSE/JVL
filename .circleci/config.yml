@@ -23,8 +23,8 @@ jobs:
               -ProjectName $CX_TEAM\/$CX_PROJECT \
               -LocationType folder \
               -LocationPath ~/project \
-              -ReportXML $CX_PROJECT-results.xml \
-              -ReportPDF $CX_PROJECT-results.pdf \
+              -ReportXML ~//cxcli//$CX_PROJECT//$CX_PROJECT-results.xml \
+              -ReportPDF ~//cxcli//$CX_PROJECT//$CX_PROJECT-results.pdf \
               -Comment "git $CIRCLE_BRANCH@$CIRCLE_SHA1" \
               -verbose
 
