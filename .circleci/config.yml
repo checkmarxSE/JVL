@@ -20,7 +20,7 @@ jobs:
               -CxServer $CX_SERVER \
               -CxUser $CX_USER \
               -CxPassword $CX_PASSWORD \
-              -ProjectName "/CxServer/checkmarxSE/JavaVulnerableLab" \
+              -ProjectName CX_TEAM + CX_PROJECT"/CxServer/checkmarxSE/JavaVulnerableLab" \
               -LocationType folder \
               -LocationPath ~/project \
               -ReportXML $CX_PROJECT-results.xml \
