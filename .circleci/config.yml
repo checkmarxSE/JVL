@@ -32,7 +32,7 @@ jobs:
               --scan \
               --cx-team="$CX_TEAM" \
               --cx-project="$CX_PROJECT-$CIRCLE_BRANCH" \
-              --cxflow.bug-tracker="NONE" \
+              --cxflow.bug-tracker="" \
               --f=.
 
 
