@@ -26,4 +26,4 @@ cxgo:
   #   - CXOD_SERVICE = 10;
   #   - CXOD_SMART_DEVICE = 11;
   #   - CXOD_OTHER = 12;
-  scan-preset: 1
+  scan-preset: 1,9
