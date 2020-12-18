@@ -1,5 +1,4 @@
 cx-flow:
-   bugTracker: WAIT
    enabled-vulnerability-scanners:
      - cxgo
 
