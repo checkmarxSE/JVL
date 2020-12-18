@@ -34,7 +34,7 @@ jobs:
             #  -ReportPDF ~//cxcli//$CX_PROJECT//$CX_PROJECT-results.pdf \
             #  -Comment "git $CIRCLE_BRANCH@$CIRCLE_SHA1" \
             #  -verbose
-            java -jar ./cxflow.jar --spring.config.location=application.yml --scan --cx-team="Cx NA Team\CxPhil" --cx-project="checkmarxSE" --app=10137
+            java -jar ~/cxflow.jar --spring.config.location=application.yml --scan --cx-team="Cx NA Team\CxPhil" --cx-project="checkmarxSE" --app=10137
 
             #java -jar /app/cx-flow.jar --spring.config.location=./application.yml \
             #  --scan \
